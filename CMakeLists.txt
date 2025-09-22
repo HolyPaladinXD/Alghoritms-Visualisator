@@ -10,8 +10,9 @@ qt_add_executable(AlgorithmVisualizer
     main.cpp
     mainwindow.cpp
     mainwindow.h
-    algorithms/bubble_sort.cpp
     algorithms/bubble_sort.h
+
+
 )
 
 target_link_libraries(AlgorithmVisualizer
