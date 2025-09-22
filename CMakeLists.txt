@@ -10,6 +10,8 @@ qt_add_executable(AlgorithmVisualizer
     main.cpp
     mainwindow.cpp
     mainwindow.h
+    algorithms/bubble_sort.cpp
+    algorithms/bubble_sort.h
 )
 
 target_link_libraries(AlgorithmVisualizer
@@ -32,3 +34,4 @@ qt_generate_deploy_app_script(
     NO_UNSUPPORTED_PLATFORM_ERROR
 )
 install(SCRIPT ${deploy_script})
+
